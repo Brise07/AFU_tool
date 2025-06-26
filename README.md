@@ -43,4 +43,97 @@ redesign is necessary.
 
 The results can be exported into a PDF file.
 
-To run the tool the following steps are needed:
+# Python App - Quick Start Guide
+
+This guide will help you get the app running on your Windows machine. No programming experience needed — just follow the steps!
+
+
+
+## What You Need
+
+- A computer with **Windows**
+- **Internet access**
+- [Python 3.10](https://www.python.org/downloads/release/python-3100/)
+
+
+## Setup Instructions
+
+### 1. Install Python (Only once)
+
+1. Download Python 3.10 from: https://www.python.org/downloads/release/python-3100/
+2. Run the installer.
+3. **IMPORTANT:** Make sure to check the box that says **"Add Python to PATH"**.
+4. Complete the installation.
+
+
+### 2. Download the App
+
+#### Option A: If you have Git
+
+Open Command Prompt and run:
+
+```bash
+git clone https://github.com/Brise07/AFU_tool
+cd AFU_tool
+```
+
+#### Option B: If you don't have Git
+
+1. Go to the GitHub page of the project.
+2. Click the green **Code** button → **Download ZIP**.
+3. Unzip the folder.
+4. Open Command Prompt and navigate to the folder.
+
+
+### 3. Set Up the Environment
+
+In the same Command Prompt window, run:
+
+```bash
+pip install uv
+uv venv
+uv sync
+```
+
+This installs the necessary tools and sets up the environment.
+
+
+### 4. Activate the Environment
+
+Run this command to activate the virtual environment:
+
+```bash
+.venv\Scripts\activate
+```
+
+You should now see a prompt like this:
+```
+(AFU_tool) C:\YourProjectPath\AFU_tool>
+```
+
+
+### 5. Run the App
+
+Now start the app with:
+
+```bash
+python app.py
+```
+
+Or if that doesn’t work, try:
+
+```bash
+py app.py
+```
+
+
+
+## Need Help?
+
+- Make sure you're inside the project folder in Command Prompt.
+- Check each command for typos.
+- If something still doesn't work, feel free to reach out!
+
+---
+
+Enjoy using the app!
